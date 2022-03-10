@@ -1,14 +1,19 @@
 #include <stdio.h>
-#include <math.h>
+//Write a program which computes and prints SUM of squares of even numbers from 0 to 100. Hence write an algorithm and draw a flow chart.
+int main()
+{
+    int a,i;
 
-int main (){
-int n = 6, sum;
+    for (i = 0; i <= 100; i++)
+    {
+        if (i%2==0)
+        {
+            a += i*i;
 
-for(int i=0; i<=n; i=i+2)
-  {
-     sum += (i*i);
-  }
+        }
+        
+    }
+    printf("%d",a);
 
-  printf("Sum of squares of even numbers from 1 to 100 is = %d", sum);
-    
+    return 0;
 }

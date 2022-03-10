@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <math.h>
+/*
+Write a program which captures two integers from keyboard, computes and prints the following: 
+i.	The product
+ii.	The average
+iii.	The maximum value
+iv.	The minimum value
+v.	The absolute value between the two integers.
 
+*/
 int main (){
     int a,b,c,d,e,f,g;
     printf("Enter first integer");

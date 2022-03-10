@@ -1,14 +1,16 @@
 #include <stdio.h>
 int main(){
-    float LENGTH, WIDTH, HEIGHT;
+    float LENGTH, WIDTH, HEIGHT,AREA,VOLUME;
     printf("Enter length ");
     scanf("%f", &LENGTH);
     printf("Enter Width ");
     scanf("%f", &WIDTH);
     printf("Enter height ");
     scanf("%f", &HEIGHT);
-    printf("Area of base: Length X Width is %f\n",LENGTH*WIDTH);
-    printf("Volume of box: Length X Width X Height is %f\n", LENGTH*WIDTH*HEIGHT);
+    VOLUME = LENGTH * WIDTH * HEIGHT;
+    AREA = LENGTH * WIDTH;
+    printf("Area of base is %f\n",AREA);
+    printf("Volume of box is %f\n", VOLUME);
     return 0;
 
 
